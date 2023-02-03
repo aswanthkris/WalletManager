@@ -26,7 +26,10 @@ The platform is to manage wallets of customers by a shopkeeper. An admin can man
 In order to access the admin panel on "/admin-dashboard".
 Only after adding shopkeeper from admin panel, you can proceed to the login of the shopkeeper 
 
-![This is an image](/MiniProjecthome.JPG)
+![This is an image](/Wallet1.JPG)
+![This is an image](/Wallet2.JPG)
+![This is an image](/Wallet3.JPG)
+
 ## Run
 
 To run this application, you have to set your own environmental variables. For security reasons, some variables have been hidden from view and used as environmental variables with the help of dotenv package. Below are the variable that you need to set in order to run the application:
@@ -47,50 +50,35 @@ The application is built with:
 - Node.js 
 - MongoDB
 - Express 
-- Bootstrap 
-- AJAX
-- JQuery
-- Razorpay
-- Twilio
+- Reactjs
 
-Deployed in AWS EC2 instance with Nginx reverse proxy
 
 ## Features
 
-The application displays different category of products such as footware,clothes and accessories.
+The application will provide admin 
 
-Users can do the following:
+Admin can do the following:
 
-- Create an account, login or logout
-- Browse available products added by the admin
-- Add products to the shopping cart and wishlist
-- Delete products from the shopping cart and wishlist
-- Display the shopping cart
-- To checkout, a user must be logged in
-- Checkout information is processed using razorpay and paypal the payment is send to the admin
--Also There is option for COD
-- The profile contains all the orders a user has made
-- View Order details, and cancel the orders
-- Update their profile
-- Search and filter products
- 
+Administrators can register a shop keeper with following fields
+
+- Shop Location
+
+- Username
+
+- Password
 
 
-Admins can do the following:
+Shopkeeper can do the following:
 
-- Login or logout to the admin panel
-- Display month wise sales report in bar chart
-- Display product wise sales report in pie chart 
-- Download sals report in pdf and excel 
-- Add products
-- Admin Can crop images all the image before upload
-- Veiw sale reports
-- View, edit or delete their products
-- Change the orders status
-- Manage users
-- View all orders done by users
-- Manage users home page 
+- Login or logout to the dashboard
+- Add customer with mandatory fields: Name, Mobile, EmailID & Optional Field: Address.
+- Customer wallet loading 
+- Shop Keepers can choose a customer with typing mobile number and add some amount to his/her wallet.
+- While adding each time wallet updates and increase the wallet balance.
+- Shop keeper can choose customer to see the current wallet balance by typing mobile number.
+- Customer wallet redeem feature
+- Shop keeper can choose one customer by typing mobile number and type an amount to reduce the wallet amount.
 
 
 
- Copyright 2022 © [Aswanth Krishna](https://github.com/aswanthkris)
+
