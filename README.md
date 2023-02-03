@@ -19,7 +19,7 @@ NOTE: Please read the RUN section before opening an issue.
 
 
 The platform is to manage wallets of customers by a shopkeeper. An admin can manage the shopkeepers.
-Please <u><b>DO NOT</b></u> provide real card number and data.
+
 
 
 
